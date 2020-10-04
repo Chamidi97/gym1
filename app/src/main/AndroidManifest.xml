@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gym">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fitness"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.gym.ChangePwd"></activity>
+        <activity android:name="com.example.gym.AccountSetting" />
+        <activity android:name="com.example.gym.Profile" />
+        <activity android:name="com.example.gym.Home" />
+        <activity android:name="com.example.gym.Register" />
+        <activity android:name="com.example.gym.Login" />
+        <activity android:name="com.example.gym.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
