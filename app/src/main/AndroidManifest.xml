@@ -12,15 +12,17 @@
         <activity android:name="com.example.gym.ChangePwd"></activity>
         <activity android:name="com.example.gym.AccountSetting" />
         <activity android:name="com.example.gym.Profile" />
-        <activity android:name="com.example.gym.Home" />
-        <activity android:name="com.example.gym.Register" />
-        <activity android:name="com.example.gym.Login" />
-        <activity android:name="com.example.gym.Main">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name="com.example.gym.Home">
+        </activity>
+        <activity android:name="com.example.gym.Register" > <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+        </activity>
+        <activity android:name="com.example.gym.Login" />
+        <activity android:name="com.example.gym.Main" >
+
         </activity>
     </application>
 
